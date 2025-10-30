@@ -1,1 +1,3 @@
 # Game-Jam
+#Tematica
+#El Juego se trata de un se;or que fue a farrear de noche, se retira del bar a las 3 AM, justo a la hora donde la chola sin cabeza ronda por el pueblo de San Pedro, el borracho tendra que huir de la chola sin cabeza y buscar los tres objetos que se necesita para poder liberar el alma de la chola sin cabeza, los objets estaran distribuidos por todo el mapa, tambien habra herramientas que daran un power up al personaje, como una linterna para poder ver mejor y una lata de cerveza que le dara mas velocidad, al conseguir los 3 objetos el ganas el juego, pero si la chola sin cabeza te atrapa 3 veces pierdes 
