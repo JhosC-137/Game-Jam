@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: da175ffbcf2499f4f9d45a610cb05c00
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 421795119126430210
+    second: Borracho-Sheet 40x40_0
+  - first:
+      213: 3737420673424215738
+    second: Borracho-Sheet 40x40_1
+  - first:
+      213: 4230421849331056370
+    second: Borracho-Sheet 40x40_2
+  - first:
+      213: -2645118416571000240
+    second: Borracho-Sheet 40x40_3
+  - first:
+      213: -7243515427518906751
+    second: Borracho-Sheet 40x40_4
+  - first:
+      213: -428378900774323211
+    second: Borracho-Sheet 40x40_5
+  - first:
+      213: -8589056747320108865
+    second: Borracho-Sheet 40x40_6
+  - first:
+      213: -333131871410109127
+    second: Borracho-Sheet 40x40_7
+  - first:
+      213: 349046848011498231
+    second: Borracho-Sheet 40x40_8
+  - first:
+      213: -3192731568292173541
+    second: Borracho-Sheet 40x40_9
+  - first:
+      213: -3753323039817676997
+    second: Borracho-Sheet 40x40_10
+  - first:
+      213: 2767386120818519414
+    second: Borracho-Sheet 40x40_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Borracho-Sheet 40x40_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 12
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20246831d648ad500800000000000000
+      internalID: 421795119126430210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borracho-Sheet 40x40_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 13
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abec6affc4cfdd330800000000000000
+      internalID: 3737420673424215738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borracho-Sheet 40x40_2
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 13
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2febd6b124a75ba30800000000000000
+      internalID: 4230421849331056370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borracho-Sheet 40x40_3
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 13
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a117780d6aa4bd0800000000000000
+      internalID: -2645118416571000240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borracho-Sheet 40x40_4
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 13
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e7ca1b81dd97b90800000000000000
+      internalID: -7243515427518906751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borracho-Sheet 40x40_5
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 12
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fbf21ec8a71e0af0800000000000000
+      internalID: -428378900774323211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borracho-Sheet 40x40_6
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 12
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb81054256a8dc880800000000000000
+      internalID: -8589056747320108865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borracho-Sheet 40x40_7
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 12
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9354d35f35a706bf0800000000000000
+      internalID: -333131871410109127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borracho-Sheet 40x40_8
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 12
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f2f1b9424018d400800000000000000
+      internalID: 349046848011498231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borracho-Sheet 40x40_9
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 13
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b19e4c0fd8321b3d0800000000000000
+      internalID: -3192731568292173541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borracho-Sheet 40x40_10
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 14
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37c06cc49489ebc0800000000000000
+      internalID: -3753323039817676997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borracho-Sheet 40x40_11
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 15
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67debbfb30bb76620800000000000000
+      internalID: 2767386120818519414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Borracho-Sheet 40x40_0: 421795119126430210
+      Borracho-Sheet 40x40_1: 3737420673424215738
+      Borracho-Sheet 40x40_10: -3753323039817676997
+      Borracho-Sheet 40x40_11: 2767386120818519414
+      Borracho-Sheet 40x40_2: 4230421849331056370
+      Borracho-Sheet 40x40_3: -2645118416571000240
+      Borracho-Sheet 40x40_4: -7243515427518906751
+      Borracho-Sheet 40x40_5: -428378900774323211
+      Borracho-Sheet 40x40_6: -8589056747320108865
+      Borracho-Sheet 40x40_7: -333131871410109127
+      Borracho-Sheet 40x40_8: 349046848011498231
+      Borracho-Sheet 40x40_9: -3192731568292173541
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
