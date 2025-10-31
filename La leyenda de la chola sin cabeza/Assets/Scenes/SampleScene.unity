@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 194785110}
   - component: {fileID: 194785112}
   - component: {fileID: 194785111}
+  - component: {fileID: 194785113}
   m_Layer: 5
   m_Name: Screamer
   m_TagString: Untagged
@@ -151,10 +152,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 890924170}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -232, y: -117.5}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &194785111
 MonoBehaviour:
@@ -178,7 +179,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: -3822750391849085910, guid: cbd5f79f12fe5b04b9218adb80abb387, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -194,6 +195,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 194785109}
   m_CullTransparentMesh: 1
+--- !u!225 &194785113
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194785109}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &309569218
 GameObject:
   m_ObjectHideFlags: 0
@@ -1467,6 +1480,7 @@ GameObject:
   - component: {fileID: 870013140}
   - component: {fileID: 870013142}
   - component: {fileID: 870013143}
+  - component: {fileID: 870013144}
   m_Layer: 0
   m_Name: Cholita-Sheet 40x40_0
   m_TagString: Untagged
@@ -1626,9 +1640,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScreamerTrigger
   screamerPanel: {fileID: 194785109}
+  screamerCanvasGroup: {fileID: 0}
   screamerSound: {fileID: 1454432755}
   playerTag: Borracho1_0
   screamerDuration: 3
+  fadeSpeed: 1
+  menuSceneName: Menu
 --- !u!70 &870013143
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1666,6 +1683,25 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.15500002, y: 0.1}
   m_Direction: 0
+--- !u!114 &870013144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870013136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e470e1379d778ed4ba17d0c5cfe4fc3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScreamerTrigger
+  screamerPanel: {fileID: 194785109}
+  screamerCanvasGroup: {fileID: 194785113}
+  screamerSound: {fileID: 0}
+  playerTag: Borracho1_0
+  screamerDuration: 3
+  fadeSpeed: 1
+  menuSceneName: Menu
 --- !u!1 &890924166
 GameObject:
   m_ObjectHideFlags: 0

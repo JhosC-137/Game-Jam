@@ -1,11 +1,21 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class ScreamerTrigger : MonoBehaviour
 {
+    [Header("Referencias visuales y de audio")]
     [SerializeField] private GameObject screamerPanel;
+    [SerializeField] private CanvasGroup screamerCanvasGroup;
     [SerializeField] private AudioSource screamerSound;
+
+    [Header("Configuración de activación")]
     [SerializeField] private string playerTag = "Borracho1_0";
-    [SerializeField] private float screamerDuration = 3f; // Tiempo que dura el screamer en pantalla
+    [SerializeField] private float screamerDuration = 3f;
+    [SerializeField] private float fadeSpeed = 1f;
+
+    [Header("Escena de destino")]
+    [SerializeField] private string menuSceneName = "Menu";
 
     private bool hasTriggered = false;
 
@@ -26,20 +36,28 @@ public class ScreamerTrigger : MonoBehaviour
             else
                 Debug.LogWarning("⚠️ screamerSound no está asignado");
 
-            // Detener el tiempo si quieres congelar el juego
-            Time.timeScale = 0f;
-
-            // Si quieres que el screamer desaparezca después de unos segundos
-            Invoke(nameof(DesactivarScreamer), screamerDuration);
+            StartCoroutine(FadeInScreamer());
         }
     }
 
-    void DesactivarScreamer()
+    IEnumerator FadeInScreamer()
     {
-        if (screamerPanel != null)
-            screamerPanel.SetActive(false);
+        float alpha = 0f;
+        Time.timeScale = 0f;
 
-        // Reanudar el tiempo si lo habías detenido
+        while (alpha < 1f)
+        {
+            alpha += fadeSpeed * Time.unscaledDeltaTime;
+            screamerCanvasGroup.alpha = Mathf.Clamp01(alpha);
+            yield return null;
+        }
+
+        yield return new WaitForSecondsRealtime(screamerDuration);
+
+        if (screamerPanel != null)
+            screamerPanel.SetActive(false); // Oculta el screamer antes de cambiar de escena
+
         Time.timeScale = 1f;
+        SceneManager.LoadScene(menuSceneName, LoadSceneMode.Single);
     }
 }
